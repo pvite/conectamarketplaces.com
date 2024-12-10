@@ -51,7 +51,7 @@
     --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-    --bs-body-font-family: "Poppins", sans-serif;
+    --bs-body-font-family: "Public Sans", sans-serif;
     --bs-body-font-size: 1.2rem;
     --bs-nav-link-font-size: 1rem;
     --bs-body-font-weight: 300;
@@ -59,7 +59,7 @@
     --bs-body-color: #1e1e1e;
     --bs-body-bg: #fff;
 
-    --bs-heading-font-family: "Poppins", sans-serif;
+    --bs-heading-font-family: "Public Sans", sans-serif;
     --bs-heading-font-size: 1.2rem;
     --bs-heading-font-weight: 300;
 
@@ -100,7 +100,7 @@ hr {
     color: rgba(33,50,91,.1);
     border: 0;
     border-top: .0625rem solid;
-    opacity: 1
+    opacity: 1;
 }
 
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
@@ -109,11 +109,13 @@ hr {
     margin-bottom: .5rem;
     font-weight: 400;
     line-height: 1.2;
-    color: #1e2022
+    color: #1e2022;
+    
 }
 
 .h1,h1 {
-    font-size: 70px
+    font-size: 70px;
+    letter-spacing: -0.2rem
 }
 
 @media (min-width: 1200px) {
@@ -509,7 +511,8 @@ progress {
 
 @media (min-width: 1200px) {
     .display-5 {
-        font-size:3rem
+        font-size:2rem
+        letter-spacing: -0.1rem;
     }
 }
 
