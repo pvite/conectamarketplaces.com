@@ -747,16 +747,19 @@
     
         <div class="row justify-content-center text-center mb-5">
           <p class="text-cap">Somos partners certificados</p>
-            <img style="max-width: 25rem;" src="./assets/svg/logo/partners/multivende-logo.png" alt="Image Description">
+          <div class="col-4 col-sm-3 col-md-2 py-3">
+            <img class="avatar avatar-xxl avatar-4x3 avatar-centered" src="./assets/svg/logo/partners/mv.svg" alt="Logo">
         </div>
-    
+      </div>
+        <!-- End Col -->
+
         <div class="row mt-5 justify-content-center">
           <div class="col-lg-7 mb-9 mb-lg-0">
             <div class="pe-lg-6">
               <!-- Browser Device -->
               <figure class="">
                 <div class="">
-                  <img class="device-browser-img" src="./assets/img/marketplaces-seccion.png" alt="Image Description">
+                  <img class="device-browser-img img-fluid rounded-1" src="./assets/img/marketplaces-seccion.png" alt="Image Description">
                 </div>
               </figure>
               <!-- End Browser Device -->
@@ -792,12 +795,12 @@
 </div>
 
 <div class="content-space-3" id="catalogo">
-  <div class="position-relative bg-soft-primary rounded-2 mx-3 mx-lg-10">
+  <div class="position-relative bg-soft-primary mx-3 mx-lg-10">
       <div class="container content-space-2 content-space-lg-3">
         <!-- Heading -->
         <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 content-space-1">
-          <h2 class="h1">Gestión de catálogo en Marketplaces</h2>
-          <p>Mantenemos tu catálogo conectado y siempre en línea, en Multivende y en todos los marketplaces.</p>
+          <h2 class="h1">Gestión de catálogo en Multivende</h2>
+          <p>Mantenemos tu catálogo conectado y siempre en línea en Multivende, para todos los marketplaces.</p>
         </div>
     
         <div class="row mt-5 justify-content-center">
@@ -806,7 +809,7 @@
               <!-- Browser Device -->
               <figure class="">
                 <div class="">
-                  <img class="device-browser-img" src="./assets/img/gestion-catalogos.png" alt="Image Description">
+                  <img class="device-browser-img img-fluid rounded-1" src="./assets/img/gestion-catalogos.png" alt="Image Description">
                 </div>
               </figure>
               <!-- End Browser Device -->
@@ -832,15 +835,6 @@
     
             <a class="btn btn-primary" href="#contacto">Contáctanos</a>
     
-            <hr class="my-5">
-    
-            <span class="d-block">A través de</span>
-    
-            <div class="row">
-              <div class="col py-3">
-                <img class="avatar avatar-xxl avatar-4x3" src="./assets/svg/logo/partners/multivende-logo.png" alt="Logo">
-              </div>
-            </div>
             <!-- End Row -->
           </div>
           <!-- End Col -->
@@ -878,7 +872,7 @@
           <!-- Browser Device -->
           <figure class="">
             <div class="">
-              <img class="device-browser-img" src="./assets/img/ecommerce-seccion.png" alt="Image Description">
+              <img class="device-browser-img img-fluid rounded-1" src="./assets/img/ecommerce-seccion.png" alt="Image Description">
             </div>
           </figure>
           <!-- End Browser Device -->
@@ -1032,8 +1026,8 @@
                 <div class="col-sm-6">
                 <!-- Form -->
                 <div class="mb-3">
-                    <label class="form-label visually-hidden" for="hireUsFormFirstName">Nombre</label>
-                    <input type="text" class="form-control form-control-lg" name="hireUsFormNameFirstName" id="hireUsFormFirstName" placeholder="Nombre" aria-label="First name">
+                    <label class="form-label visually-hidden" for="firstname">Nombre</label>
+                    <input type="text" class="form-control form-control-lg" name="firstname" id="firstname" placeholder="Nombre" aria-label="firstname">
                 </div>
                 <!-- End Form -->
                 </div>
@@ -1042,8 +1036,8 @@
                 <div class="col-sm-6">
                 <!-- Form -->
                 <div class="mb-3">
-                    <label class="form-label visually-hidden" for="hireUsFormLasttName">Apellido</label>
-                    <input type="text" class="form-control form-control-lg" name="hireUsFormNameLastName" id="LasttName" placeholder="Apellido" aria-label="Last name">
+                    <label class="form-label visually-hidden" for="lastname">Apellido</label>
+                    <input type="text" class="form-control form-control-lg" name="lastname" id="lastname" placeholder="Apellido" aria-label="lastname">
                 </div>
                 <!-- End Form -->
                 </div>
@@ -1055,8 +1049,8 @@
                 <div class="col-sm-6">
                 <!-- Form -->
                 <div class="mb-3">
-                    <label class="form-label visually-hidden" for="hireUsFormWorkEmail">Empresa</label>
-                    <input type="email" class="form-control form-control-lg" name="hireUsFormNameWorkEmail" id="hireUsFormWorkEmail" placeholder="Empresa" aria-label="email@site.com">
+                    <label class="form-label visually-hidden" for="company">Empresa</label>
+                    <input type="text" class="form-control form-control-lg" name="company" id="company" placeholder="Empresa" aria-label="company">
                 </div>
                 <!-- End Form -->
                 </div>
@@ -1065,8 +1059,8 @@
                 <div class="col-sm-6">
                 <!-- Form -->
                 <div class="mb-3">
-                  <label class="form-label visually-hidden" for="hireUsFormWorkEmailEg2">Email corporativo</label>
-                  <input type="email" class="form-control form-control-lg" name="hireUsFormNameWorkEmail" id="hireUsFormWorkEmailEg2" placeholder="email@empresa.com" aria-label="email@site.com">
+                  <label class="form-label visually-hidden" for="email">Email corporativo</label>
+                  <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="email@empresa.com" aria-label="email">
                 </div>
 
                 <!-- End Col -->
@@ -1078,8 +1072,8 @@
             <div class="col-sm-6">
               <!-- Select -->
               <div class="mb-3">
-                <label class="form-label visually-hidden" for="hireUsFormWorkEmailEg2">Cargo</label>
-                <input type="email" class="form-control form-control-lg" name="hireUsFormNameWorkEmail" id="Cargo" placeholder="Cargo" aria-label="email@site.com">
+                <label class="form-label visually-hidden" for="jobtitle">Cargo</label>
+                <input type="text" class="form-control form-control-lg" name="jobtitle" id="jobtitle" placeholder="Cargo" aria-label="jobtitle">
               </div>
               <!-- End Select -->
             </div>
@@ -1089,14 +1083,14 @@
               <!-- Select -->
               <div class="mb-3">
                 <label class="form-label visually-hidden" for="hireUsFormCountry">País</label>
-                <select id="hireUsFormCountry" class="form-select form-select-lg" name="hireUsFormNameCountry" aria-label="Country">
+                <select id="country" class="form-select form-select-lg" name="country" aria-label="country">
                   <option value="" selected disabled>País</option>
-                  <option value="AF">Chile</option>
-                    <option value="AX">Colombia</option>
-                    <option value="AL">México</option>
-                    <option value="DZ">Perú</option>
-                    <option value="AS">Ecuador</option>
-                    <option value="AD">Uruguay</option>
+                  <option value="Chile">Chile</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Mexico">México</option>
+                    <option value="Peru">Perú</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Uruguay">Uruguay</option>
                 </select>
               </div>
               <!-- End Select -->
@@ -1106,8 +1100,8 @@
           <!-- End Row -->
 
           <div class="mb-3">
-            <label class="form-label visually-hidden" for="hireUsFormDetailsEg2">Details</label>
-            <textarea class="form-control form-control-lg" name="hireUsFormNameDetails" id="hireUsFormDetailsEg2" placeholder="¿Cómo te podemos ayudar?" aria-label="Tell us about your project" rows="4"></textarea>
+            <label class="form-label visually-hidden" for="message">Mensaje</label>
+            <textarea class="form-control form-control-lg" name="message" id="message" placeholder="¿Cómo te podemos ayudar?" aria-label="message" rows="4"></textarea>
           </div>
 
 
