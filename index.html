@@ -1021,13 +1021,13 @@
             </div>
 
             <!-- Form -->
-            <form action="/gracias" data-hs-cf-bound="true">
+            <form action="/gracias" id="contacto-home" data-hs-cf-bound="true">
             <div class="row gx-3">
                 <div class="col-sm-6">
                 <!-- Form -->
                 <div class="mb-3">
                     <label class="form-label visually-hidden" for="firstname">Nombre</label>
-                    <input type="text" class="form-control form-control-lg" name="firstname" id="firstname" placeholder="Nombre" aria-label="firstname">
+                    <input type="text" required class="form-control form-control-lg" name="firstname" id="firstname" placeholder="Nombre" aria-label="firstname">
                 </div>
                 <!-- End Form -->
                 </div>
@@ -1037,7 +1037,7 @@
                 <!-- Form -->
                 <div class="mb-3">
                     <label class="form-label visually-hidden" for="lastname">Apellido</label>
-                    <input type="text" class="form-control form-control-lg" name="lastname" id="lastname" placeholder="Apellido" aria-label="lastname">
+                    <input type="text" required class="form-control form-control-lg" name="lastname" id="lastname" placeholder="Apellido" aria-label="lastname">
                 </div>
                 <!-- End Form -->
                 </div>
@@ -1050,7 +1050,7 @@
                 <!-- Form -->
                 <div class="mb-3">
                     <label class="form-label visually-hidden" for="company">Empresa</label>
-                    <input type="text" class="form-control form-control-lg" name="company" id="company" placeholder="Empresa" aria-label="company">
+                    <input type="text" required class="form-control form-control-lg" name="company" id="company" placeholder="Empresa" aria-label="company">
                 </div>
                 <!-- End Form -->
                 </div>
@@ -1060,7 +1060,7 @@
                 <!-- Form -->
                 <div class="mb-3">
                   <label class="form-label visually-hidden" for="email">Email corporativo</label>
-                  <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="email@empresa.com" aria-label="email">
+                  <input type="email" required class="form-control form-control-lg" name="email" id="email" placeholder="email@empresa.com" aria-label="email">
                 </div>
 
                 <!-- End Col -->
@@ -1073,7 +1073,7 @@
               <!-- Select -->
               <div class="mb-3">
                 <label class="form-label visually-hidden" for="jobtitle">Cargo</label>
-                <input type="text" class="form-control form-control-lg" name="jobtitle" id="jobtitle" placeholder="Cargo" aria-label="jobtitle">
+                <input type="text" required class="form-control form-control-lg" name="jobtitle" id="jobtitle" placeholder="Cargo" aria-label="jobtitle">
               </div>
               <!-- End Select -->
             </div>
@@ -1083,7 +1083,7 @@
               <!-- Select -->
               <div class="mb-3">
                 <label class="form-label visually-hidden" for="hireUsFormCountry">País</label>
-                <select id="country" class="form-select form-select-lg" name="country" aria-label="country">
+                <select id="country" required class="form-select form-select-lg" name="country" aria-label="country">
                   <option value="" selected disabled>País</option>
                   <option value="Chile">Chile</option>
                     <option value="Colombia">Colombia</option>
@@ -1101,7 +1101,7 @@
 
           <div class="mb-3">
             <label class="form-label visually-hidden" for="message">Mensaje</label>
-            <textarea class="form-control form-control-lg" name="message" id="message" placeholder="¿Cómo te podemos ayudar?" aria-label="message" rows="4"></textarea>
+            <textarea class="form-control form-control-lg" required name="message" id="message" placeholder="¿Cómo te podemos ayudar?" aria-label="message" rows="4"></textarea>
           </div>
 
             <div class="d-grid">
